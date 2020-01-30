@@ -1,4 +1,5 @@
 #back-image {
-    background-image: url(./assets/main-backround.jpeg);
-    margin: 0;
+    background-image: url('../assets/main-backround.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }

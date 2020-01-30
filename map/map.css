@@ -1,0 +1,5 @@
+#map-image {
+    background-image: url('../assets/outpost-map.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

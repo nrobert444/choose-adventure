@@ -143,3 +143,12 @@ const fusedCreature = {
         hp: 0,
     }]
 };
+
+const nightmares = [
+    mutantDog, 
+    mutiny, 
+    fusedCreature,
+    spiderHead
+];
+
+export default nightmares;

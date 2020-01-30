@@ -13,10 +13,16 @@ export function getUser() {
 function makeUser(formData) {
     const user = {
         name: formData.get('name'),
-        race: formData.get('race'),
+        race: formData.get('character'),
         hp: 40,
         completed: {}
     };
 
     return user;
 }
+
+function isDead(user) {
+    return user.hp <= 0;
+}
+
+export default isDead;
