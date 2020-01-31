@@ -9,7 +9,6 @@ loadProfile();
 
 const searchParams = new URLSearchParams(window.location.search);
 const questId = searchParams.get('id');
-console.log(questId)
 const quest = findById(quests, questId);
 
 if (!quest) {
@@ -43,9 +42,12 @@ choiceForm.addEventListener('submit', function(event) {
 
     // get user choice
     const formData = new FormData(choiceForm);
+
     const choiceId = formData.get('choice');
+    console.log(choiceId)
     // use old faitful to find the choice
     const choice = findById(quest.choices, choiceId);
+    
 
     // get user out of local storage
     const user = getUser();
@@ -57,7 +59,7 @@ choiceForm.addEventListener('submit', function(event) {
     // update UI
     choiceForm.classList.add('hidden');
     result.classList.remove('hidden');
-    resultDescription.textContent = choice.result;
+    resultDescription.textContent = choices.result;
     // reload profile for new stats
     loadProfile(); // goes into state changes header
 

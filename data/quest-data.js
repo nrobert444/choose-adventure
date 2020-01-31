@@ -3,9 +3,9 @@ const mutantDog = {
     title: 'Savage mutant dog',
     map: {
         top: '89%',
-        left: '44%'
+        left: '44%',
     },
-    image: '',
+    image: 'dog.jpeg',
     description: `
         You hear whining dogs and enter the kennel to find a mutant dog draining the life from the rest of it's pack with tentacles extending from it's body.'
     `,
@@ -34,12 +34,12 @@ const mutantDog = {
 };
 const mutiny = {
     id: 'mutiny',
-    title: 'mutiny in the outpost',
+    title: 'Mutiny in the outpost',
     map: {
         top: '55%',
-        left: '90%'
+        left: '90%',
     },
-    image: '',
+    image: 'mutiny.jpeg',
     description: `
         Fear and paranoia has taken over rational minds. Your fellow survivors suspect you may have been assimilated by the xenomorph and have decided you must be killed.
     `,
@@ -68,12 +68,12 @@ const mutiny = {
 };
 const spiderHead = {
     id: 'spider-head',
-    title: 'alien spider head',
+    title: 'Arachnid severed head',
     map: {
         top: '14%',
-        left: '39%'
+        left: '39%',
     },
-    image: '',
+    image: 'another-spider-head.jpeg',
     description: `
         You've tested the survivors for infection with a rudimentary blood test but one member reacts violently and begins to mutate in a disgusting and horrifying manor. His body is torched with the flame thrower but his head detaches from his body and sprouts spider like legs as it makes it's way your direction. The flame thrower will no longer ignite.
     `,
@@ -105,7 +105,7 @@ const fusedCreature = {
     title: 'Fused creature',
     map: {
         top: '63%',
-        left: '41%'
+        left: '41%',
     },
     image: '',
     description: `

@@ -8,16 +8,18 @@ loadProfile();
 const user = getUser();
 
 const storyDisplay = document.getElementById('story-display');
-
+const endImage = document.getElementById('result-image')
 const hpResult = scoreHp(user.hp);
 const hpMessage = hpMessages[hpResult];
 
 
-let story = 'After surviving, ';
+
+let story = 'The nightmare is over, ';
 story += user.name + ' as ' + user.character + ', ';
 story += hpMessage + '.';
 
 storyDisplay.textContent = story;
+endImage.src = '../assets/burning-outpost.jpeg';
 
 
 
