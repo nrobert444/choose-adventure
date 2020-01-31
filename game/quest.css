@@ -1,12 +1,9 @@
 
 #quests {
     position: relative;
-    /* background-image: url("../assets/map.jpg"); */
-    background-size: contain;
+     background-image: url("../assets/quest-back.jpeg"); 
+    background-size: cover;
     background-repeat: no-repeat;
-    width: 90vw;
-    height: calc(90vw * 642 / 900);
-    margin: auto;
 }
 
 .quest {
@@ -22,4 +19,18 @@
 
 .quest.completed:after {
     content: ' ✔';
+}
+#result {
+    display: flex;
+    background-color: papayawhip;
+    border: solid 3px silver;
+
+}
+#result a {
+    justify-content: center;
+}
+
+#result-description {
+    text-align: center;
+    font-size: 24px;
 }

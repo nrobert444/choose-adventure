@@ -59,7 +59,7 @@ choiceForm.addEventListener('submit', function(event) {
     // update UI
     choiceForm.classList.add('hidden');
     result.classList.remove('hidden');
-    resultDescription.textContent = choices.result;
+    resultDescription.textContent = choice.result;
     // reload profile for new stats
     loadProfile(); // goes into state changes header
 

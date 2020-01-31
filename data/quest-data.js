@@ -2,8 +2,8 @@ const mutantDog = {
     id: 'mutant-dog',
     title: 'Savage mutant dog',
     map: {
-        top: '89%',
-        left: '44%',
+        top: '88%',
+        left: '72%',
     },
     image: 'dog.jpeg',
     description: `
@@ -36,8 +36,8 @@ const mutiny = {
     id: 'mutiny',
     title: 'Mutiny in the outpost',
     map: {
-        top: '55%',
-        left: '90%',
+        top: '77%',
+        left: '46%',
     },
     image: 'mutiny.jpeg',
     description: `
@@ -70,7 +70,7 @@ const spiderHead = {
     id: 'spider-head',
     title: 'Arachnid severed head',
     map: {
-        top: '14%',
+        top: '69%',
         left: '39%',
     },
     image: 'another-spider-head.jpeg',
@@ -104,10 +104,10 @@ const fusedCreature = {
     id: 'fused-creature',
     title: 'Fused creature',
     map: {
-        top: '63%',
-        left: '41%',
+        top: '73%',
+        left: '21%',
     },
-    image: '',
+    image: 'fused-creature3.jpeg',
     description: `
         Barely any survivors remain and you realize no one is likely to survive this nightmare. It's time to go on the offensive and lure the creature out of hiding. You rig the outpost with fuel and dynamite, ready to bring the creature down and likely yourself with it. The preparations are nearly set when the creature emerges, now enormous in size and with the bodies of it's victims, human and otherwise, visibly fused into it's new form. 
     `,
