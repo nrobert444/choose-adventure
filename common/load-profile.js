@@ -1,4 +1,4 @@
-import { getUser, isDead } from '../data/char-store';
+import { getUser, isDead } from '../data/char-store.js';
 
 function loadProfile() {
     /* reference needed DOM elements */
@@ -17,6 +17,7 @@ function loadProfile() {
 
     // copy data from object to DOM properties:
     name.textContent = user.name;
+    //FIX IMAGE SIZES
     players.src = '../assets/' + user.character + '.jpeg';
 
     if (isDead(user)) {

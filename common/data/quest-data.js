@@ -6,6 +6,8 @@ const mutantDog = {
         left: '44%'
     },
     image: '',
+    //audio: 'monsters.wav',
+    //action: 'monster-scream.wav',
     description: `
         You hear whining dogs and enter the kennel to find a mutant dog draining the life from the rest of it's pack with tentacles extending from it's body.'
     `,
@@ -40,6 +42,8 @@ const mutiny = {
         left: '90%'
     },
     image: '',
+    //audio: 'monsters.wav',
+    //action: 'monster-scream.wav',
     description: `
         Fear and paranoia has taken over rational minds. Your fellow survivors suspect you may have been assimilated by the xenomorph and have decided you must be killed.
     `,
@@ -74,6 +78,8 @@ const spiderHead = {
         left: '39%'
     },
     image: '',
+    //audio: 'monsters.wav',
+    //action: 'monster-scream.wav',
     description: `
         You've tested the survivors for infection with a rudimentary blood test but one member reacts violently and begins to mutate in a disgusting and horrifying manor. His body is torched with the flame thrower but his head detaches from his body and sprouts spider like legs as it makes it's way your direction. The flame thrower will no longer ignite.
     `,
@@ -108,6 +114,8 @@ const fusedCreature = {
         left: '41%'
     },
     image: '',
+    //audio: 'monsters.wav',
+    //action: 'monster-scream.wav',
     description: `
         Barely any survivors remain and you realize no one is likely to survive this nightmare. It's time to go on the offensive and lure the creature out of hiding. You rig the outpost with fuel and dynamite, ready to bring the creature down and likely yourself with it. The preparations are nearly set when the creature emerges, now enormous in size and with the bodies of it's victims, human and otherwise, visibly fused into it's new form. 
     `,
@@ -135,12 +143,3 @@ const fusedCreature = {
         hp: 0,
     }]
 };
-
-const quests = [
-    mutantDog, 
-    mutiny, 
-    fusedCreature,
-    spiderHead
-];
-
-export default quests;

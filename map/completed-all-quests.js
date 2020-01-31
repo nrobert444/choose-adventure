@@ -1,7 +1,7 @@
-function hasCompletedAllQuests(quests, user) {
+function hasCompletedAllQuests(encounter, user) {
     // iterate through quests
-    for (let i = 0; i < quests.length; i++) {
-        const quest = quests[i];
+    for (let i = 0; i < encounter.length; i++) {
+        const quest = encounter[i];
         // if any of the quests is incomplete
         if (!user.completed[quest.id]) {
             return false;

@@ -11,3 +11,11 @@
 .profile-stat-label {
     text-transform: uppercase; 
 }
+
+#players img {
+    width: 60px;
+    height: 40px;
+}
+#players label {
+    background-color: powderblue;
+}

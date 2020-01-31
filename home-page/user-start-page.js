@@ -1,4 +1,5 @@
-import { saveUser, makeUser } from '../data/char-store';
+import { saveUser } from '../data/char-store.js';
+import { makeUser } from './make-user.js';
 
 
 const createUser = document.getElementById('user-create');
@@ -12,5 +13,6 @@ createUser.addEventListener('submit', function(event) {
 
     saveUser(player);
 
+    // is this right?
     window.location = 'map';
 });

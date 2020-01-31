@@ -1,6 +1,6 @@
-function scoreQuest(choice, questId, user) {
+function scoreQuest(choices, questId, user) {
     // add hp to user according to the choice's consequences
-    user.hp += choice.hp;
+    user.hp += choices.hp;
     // set this quest id to completed in the user
     user.completed[questId] = true;
 }
