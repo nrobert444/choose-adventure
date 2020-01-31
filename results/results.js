@@ -1,7 +1,7 @@
 import loadProfile from '../common/load-profile.js';
-import { getUser } from '../data/api.js';
+import { getUser } from '../data/char-store.js';
 import scoreHp from './score-hp.js';
-import { hpMessages } from './messages.js';
+import { hpMessages } from './hp-message.js';
 
 loadProfile();
 
@@ -13,8 +13,8 @@ const hpResult = scoreHp(user.hp);
 const hpMessage = hpMessages[hpResult];
 
 
-let story = 'After your adventures, ';
-story += user.name + ' the ' + user.character + ', ';
+let story = 'After surviving, ';
+story += user.name + ' as ' + user.character + ', ';
 story += hpMessage + '.';
 
 storyDisplay.textContent = story;

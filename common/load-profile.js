@@ -3,7 +3,7 @@ import { getUser, isDead } from '../data/char-store';
 function loadProfile() {
     /* reference needed DOM elements */
     const name = document.getElementById('name');
-    const avatar = document.getElementById('players');
+    const players = document.getElementById('players');
     const hp = document.getElementById('hp');
 
     /* initialize: load and parse json with user from local storage */
@@ -17,7 +17,7 @@ function loadProfile() {
 
     // copy data from object to DOM properties:
     name.textContent = user.name;
-    avatar.src = '../assets/' + user.character + '.jpeg';
+    players.src = '../assets/' + user.character + '.jpeg';
 
     if (isDead(user)) {
         hp.textContent = 'Assimilated';
