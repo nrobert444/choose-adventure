@@ -11,3 +11,7 @@ h2 {
 .text-prompt {
     color: ghostwhite;
 }
+h2 {
+    font-weight: bolder;
+    color: orangered;
+}
