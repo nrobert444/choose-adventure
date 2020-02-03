@@ -1,0 +1,17 @@
+#back-image {
+    background-image: url('../assets/main-back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 200px;
+}
+h2 {
+    color: powderblue;
+    text-align: center;
+}
+.text-prompt {
+    color: ghostwhite;
+}
+h2 {
+    font-weight: bolder;
+    color: orangered;
+}

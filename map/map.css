@@ -1,0 +1,20 @@
+#map-image {
+    background-image: url('../assets/outpost4.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+.quest {
+    position: absolute;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.quest.completed {
+    color: whitesmoke;
+    font-size: .9em;
+}
+
+.quest.completed:after {
+    content: ' ✔';
+}

@@ -1,0 +1,36 @@
+
+#quests {
+    position: relative;
+     background-image: url("../assets/quest-back.jpeg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.quest {
+    position: absolute;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.quest.completed {
+    color: whitesmoke;
+    font-size: .9em;
+}
+
+.quest.completed:after {
+    content: ' ✔';
+}
+#result {
+    display: inline-block;
+    background-color: papayawhip;
+    border: solid 3px silver;
+
+}
+
+#result-description {
+    text-align: center;
+    font-size: 24px;
+}
+p {
+    color: black;
+}
